@@ -3,7 +3,12 @@
         @include grid(3, 2rem);
     }
 }
-
+.precio{
+    color: $verde;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
 .anuncio{
     background-color: lighten ($gris, 5);
     border: 1px solid darken($gris, 10);
@@ -17,11 +22,7 @@
     h3,p{
         margin: 0;
     }
-    .precio{
-        color: $verde;
-        font-weight: 700;
-        font-size: 3rem;
-    }
+    
 }
 
 .iconos-caracteristicas{

@@ -1,0 +1,8 @@
+.nosotros{
+    @include tablet{
+        @include grid(2, 3rem);
+    }
+    h4{
+        margin-top: 0;
+    }
+}
